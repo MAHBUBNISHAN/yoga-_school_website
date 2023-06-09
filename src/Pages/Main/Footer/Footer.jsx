@@ -3,11 +3,11 @@ import logo from '../../../assets/logo.webp'
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 bg-teal-700 text-base-content">
+        <footer className="footer p-10 bg-cyan-800 text-base-content">
         <div>
           <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd" className="fill-current"></svg>
-          <img src={logo} alt="" className='h-20 w-15 ms-10' />
-          <p>Toy Summation Industries Ltd.</p>
+          <img src={logo} alt="" className='h-20 w-15 ms-10 rounded-3xl' />
+          <p className='text-xl ms-10'>School of Yoga </p>
         </div> 
         <div>
           <span className="footer-title">Services Media Link</span> 
@@ -20,8 +20,8 @@ const Footer = () => {
           <span className="footer-title">Company</span> 
           <a className="link link-hover">About us</a> 
           <a className="link link-hover">Contact</a> 
-          <a className="link link-hover">Jobs</a> 
-          <a className="link link-hover">Press kit</a>
+          <a className="link link-hover">facilities</a> 
+         
         </div> 
         <div>
           <span className="footer-title">Legal</span> 
