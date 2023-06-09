@@ -3,7 +3,11 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../providers/AuthProviders';
 
 
-const { signIn } = useContext(AuthContext);
+
+
+const Login = () => {
+
+    const { signIn } = useContext(AuthContext);
   const navigate = useNavigate();
   const location = useLocation();
   const {user} = useContext(AuthContext);
@@ -34,7 +38,6 @@ const { signIn } = useContext(AuthContext);
   }, [user])
 
 
-const Login = () => {
     return (
         <div>
             <div className="hero min-h-screen bg-base-200">
