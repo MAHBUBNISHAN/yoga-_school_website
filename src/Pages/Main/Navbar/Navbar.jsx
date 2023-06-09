@@ -30,10 +30,6 @@ const Navbar = () => {
                             <Link className="btn btn-ghost normal-case text-xl" to="/register">Register</Link>
                         </>
 
-                
-
-                <Link className="btn btn-ghost normal-case text-xl" to="/blog">Blog</Link>
-
             </div>
         </div>
     </div>
